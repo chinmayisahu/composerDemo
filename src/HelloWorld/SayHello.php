@@ -4,6 +4,7 @@ class SayHello
 {
     public static function world()
     {
-        return 'Hello World, Composer! This is second Commit. This is third Commit';
+		$strName = 'Chinmayi';
+        return 'Hello ' . $strName;
     }
 }
