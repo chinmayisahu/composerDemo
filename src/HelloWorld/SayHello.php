@@ -4,6 +4,6 @@ class SayHello
 {
     public static function world()
     {
-        return 'Hello World, Composer! This is second Commit';
+        return 'Hello World, Composer! This is second Commit. This is third Commit';
     }
 }
