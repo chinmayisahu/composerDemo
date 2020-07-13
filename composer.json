@@ -1,0 +1,19 @@
+{
+    "name": "chinmayi/hello-world",
+    "description": "This is first trial composer",
+    "authors": [
+        {
+            "name": "Chinmayi Sahu",
+            "email": "chinmayi130186sahu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
